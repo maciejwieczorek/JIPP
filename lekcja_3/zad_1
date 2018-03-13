@@ -1,0 +1,36 @@
+samochody ={
+    'maluch' => 'fiat',
+    'garbus' => 'vw',
+    'zuk' => 'fso'
+    }
+
+puts samochody['garbus']
+
+
+owoc={}
+owoc['sliwka']='mniam'
+owoc['agrest']='mniam'
+owoc['cytryna']='ble'
+
+puts owoc
+
+puts owoc.inspect
+puts owoc.length
+puts owoc.values
+puts owoc.keys
+
+zarobki=Hash['dziekan',10000,'prof',6000,'adiunkt',3000,'asystent',1800,'student',650]
+
+puts
+puts zarobki.inspect
+puts
+zarobki.each{|klucz,wartosc| puts "#{klucz} zarabia #{wartosc} PLN"}
+puts
+zarobki.sort.each{|klucz,wartosc| puts "#{klucz} zarabia #{wartosc} PLN"}
+puts
+zarobki.sort_by{|k,v| v}.each{|klucz,wartosc| puts "#{klucz} zarabia #{wartosc} PLN"}
+puts
+zarobki.sort_by{|k,v| v}.reverse.each{|klucz,wartosc| puts "#{klucz} zarabia #{wartosc} PLN"}
+puts
+puts zarobki.select{|stanowisko,placa| placa >2500}
+puts

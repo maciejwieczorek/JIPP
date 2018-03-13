@@ -1,0 +1,38 @@
+ 
+#komentarz
+
+puts 'hello world'.class
+
+puts 4.class
+puts true.class
+
+puts nil.class 
+
+def fun1()
+    puts 'hello world'
+end
+
+fun1
+fun1()
+
+def mnozenia1(a,b)
+    iloczyn =a*b
+    return iloczyn
+end
+
+puts mnozenia1(3,5)
+
+def mnozenia2(a,b)
+    iloczyn = a*b
+end
+
+puts mnozenia2(3,5)
+
+def mnozenie3(a,b)
+    a-b
+    a*b
+    a+b
+    'napis'
+end
+
+puts mnozenie3(3,5)

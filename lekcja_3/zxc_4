@@ -1,0 +1,36 @@
+ 
+tablica1  = [12, 12.5, 6, 8, "", 3.7, "napis", nil]
+    puts tablica1
+    puts tablica1[2]
+    puts tablica1[1]
+    puts tablica1.size
+    puts tablica1.first
+    puts tablica1.last
+    
+tablica2  = [12, nil, 6, 8, "",4, "Maciek", 3.7, "napis", nil, 2]
+
+    puts tablica2
+    puts tablica2[2]
+    puts tablica2[1]
+    puts tablica2.size
+    puts tablica2.first
+    puts tablica2.last
+
+tablica3 = [tablica1 , tablica2]
+
+puts tablica3
+puts tablica3.size
+
+tablica4 = [tablica1 & tablica2]
+
+puts tablica4
+
+tablica1.pop
+tablica1.pop
+tablica1.pop
+
+puts tablica1
+
+tablica1.push(1,2,3,4,5)
+
+puts tablica1

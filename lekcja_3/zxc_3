@@ -1,0 +1,69 @@
+ 
+class Numeric
+    def cale
+        self
+    end
+    
+    def stopa
+        self*12.cale
+    end
+    
+    def jardy
+        self*3.stopa
+    end
+    
+    def b
+        self*1.cale
+    end
+    
+    def B
+        self*8.b
+    end
+    
+    def KB
+        self*1000.B
+    end
+    
+    def MB
+        self*1000.KB
+    end
+    
+    def GB
+        self*1000.MB
+    end
+    
+    def TB
+        self*1000.GB
+    end
+    
+    def KiB
+        self*1024.B
+    end
+    
+    def MiB
+        self*1024.KB
+    end
+    
+    def GiB
+        self*1024.MB
+    end
+    
+    def TiB
+        self*1024.GB
+    end
+    
+    
+    
+end
+
+puts 3.cale
+puts 1.stopa
+puts 2.stopa
+
+puts 1.jardy
+puts 3.jardy
+
+puts 8.GiB
+puts 8.GB
+
+
